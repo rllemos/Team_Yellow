@@ -52,5 +52,5 @@ CSV file with 4899 rows and twelve columns.
 
 # Questions the team hopes to answer with the data
 # What knowledge do we hope to glean from running an unsupervised learning model on this dataset?
-we can group together elements based on how each element affects the final quality of the wine.
-Which white wine has the best quality and what elements affect the quality of the wine.
+We can group elements together based on how each element affects the final quality of the wine.
+Which white wine has the best quality and what elements affect the quality of the wine?
