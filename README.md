@@ -45,7 +45,7 @@ SciKitLearn is the ML library we'll be using to create a classifier. Our trainin
 In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on ___.
 
 ## Reason the topic was selected
-Global Market value of White Wine has reached over $340 billion dollars and continue to grow.If we can determine which elements have greater impact on the quality of wine, we can provide a good indication on how the wine will sell and improve quality assurence. Also, wine is delicious and a staple in any household.
+The Global Market value of White Wine has reached over $340 billion dollars and continue to grow. If we can determine which elements have greater impact on the quality of wine, we can provide a good indication on how the wine will sell and improve quality assurance. Also, wine is delicious and a staple in any household.
 # Description of the source of data
 The data was download from Kaggle: https://www.kaggle.com/datasets/danielpanizzo/wine-quality
 CSV file with 4899 rows and twelve columns.
