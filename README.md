@@ -48,7 +48,7 @@ In addition to using a Flask template, we will also integrate D3.js for a fully 
 The Global Market value of White Wine has reached over $340 billion dollars and continue to grow. If we can determine which elements have greater impact on the quality of wine, we can provide a good indication on how the wine will sell and improve quality assurance. Also, wine is delicious and a staple in any household.
 # Description of the source of data
 The data was download from Kaggle: https://www.kaggle.com/datasets/danielpanizzo/wine-quality
-CSV file with 4899 rows and twelve columns.
+It came as a CSV file with 4899 rows and 12 columns.
 
 # Questions the team hopes to answer with the data
 # What knowledge do we hope to glean from running an unsupervised learning model on this dataset?
