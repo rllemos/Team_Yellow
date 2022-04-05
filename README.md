@@ -14,7 +14,7 @@
 >or poor wines. Also, we are not sure if all input variables are relevant. So
 >it could be interesting to test feature selection methods.
 
-# Technologies Used
+# Technologies Used (Renata Lemos)
 ## Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 # Description of the data exploration phase of the project
