@@ -57,6 +57,7 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 PostgreSQL Database on AWS is the database we intend to use, and we will integrate Tableau to display the data.
 
 ## Machine Learning (Amanda Cancio)
+
 ### Supervised Machine Learning
 - Create training and test groups from a given data set.
 - The data was first cleaned, explored, and scaled, and then run through a Radom Forest Classifier.
@@ -65,6 +66,10 @@ PostgreSQL Database on AWS is the database we intend to use, and we will integra
 - Determine which supervised learning algorithm is best used for a given data set or scenario.
 - Use ensemble and resampling techniques to improve model performance.
 - SciKitLearn is the ML library we'll be using to create a classifier.
+
+SciKitLearn is the ML library we'll be using to create a classifier.  The data was first cleaned, explored, and scaled, and then run through a Radom Forest Classifier.
+
+
 # Description of the analysis phase of the project
 - Ranking the elements (elements name
 - Determining if there is any corrolation between the elements
