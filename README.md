@@ -71,6 +71,14 @@ PostgreSQL Database on AWS is the database we intend to use, and we will integra
 SciKitLearn is the ML library we'll be using to create a classifier.  The data was first cleaned, explored, and scaled, and then run through a Radom Forest Classifier.
 
 
+## Machine Learning
+SciKitLearn is the ML library we'll be using to create a classification model.  
+
+### Prelimiary Data Preprocessing
+
+
+
+
 # Description of the analysis phase of the project
 - Ranking the elements (elements name
 - Determining if there is any corrolation between the elements
