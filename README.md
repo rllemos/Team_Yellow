@@ -28,7 +28,10 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 AWS___ is the database we intend to use, and we will integrate___ to display the data.
 
 ## Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
+SciKitLearn is the ML library we'll be using to create a classification model.  
+
+### Prelimiary Data Preprocessing
+
 
 # Description of the analysis phase of the project
 - Ranking the elements (elements name)
