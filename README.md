@@ -2,6 +2,7 @@
 ![](Images/wine.png)
 
 # White Wine and Red Wine Quality
+-----------------------------------------------------------------------------------------------
 
 # Backgroud
 >The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine.
@@ -25,19 +26,19 @@ It came as a two CSV file White Wine with 4899 rows and 12 columns and Red Wine 
 *Columns*
 Input variables (based on physicochemical tests):
 
-1 - fixed acidity (tartaric acid - g / dm^3)
-2 - volatile acidity (acetic acid - g / dm^3)
-3 - citric acid (g / dm^3)
-4 - residual sugar (g / dm^3)
-5 - chlorides (sodium chloride - g / dm^3
-6 - free sulfur dioxide (mg / dm^3)
-7 - total sulfur dioxide (mg / dm^3)
-8 - density (g / cm^3)
-9 - pH
-10 - sulphates (potassium sulphate - g / dm3)
-11 - alcohol (% by volume)
-Output variable (based on sensory data):
-12 - quality (score between 0 and 10)
+1. fixed acidity (tartaric acid - g / dm^3)
+2. volatile acidity (acetic acid - g / dm^3)
+3. citric acid (g / dm^3)
+4. residual sugar (g / dm^3)
+5. chlorides (sodium chloride - g / dm^3
+6. free sulfur dioxide (mg / dm^3)
+7. total sulfur dioxide (mg / dm^3)
+8. density (g / cm^3)
+9. pH
+10. sulphates (potassium sulphate - g / dm3)
+11. alcohol (% by volume)
+*Output variable (based on sensory data):*
+12. quality (score between 0 and 10)
 # Technologies Used (Renata Lemos)
 Slack and Zoom - main communication tool.
 Python/Pandas - ETL ,matplotlib, sklearn
@@ -77,6 +78,6 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 - Can those elements be manipulated to assure the quality of the wine?
 - What affects the elements that determine the quality of the wine?
 
-# What knowledge do we hope to glean from running an unsupervised learning model on this dataset?
+### What knowledge do we hope to glean from running an unsupervised learning model on this dataset?
 We can group elements together based on how each element affects the final quality of the wine.
 Which white wine has the best quality and what elements affect the quality of the wine?
