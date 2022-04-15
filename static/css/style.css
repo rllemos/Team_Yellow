@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(191, 202, 150);
+
+    color: #161515;
+}
+
+
+.jumbotron {
+    background-image: url("../images/happy_cows.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}

@@ -38,7 +38,7 @@ Input variables (based on physicochemical tests):
 Output variable (based on sensory data):
 12 - quality (score between 0 and 10)
 # Technologies Used (Renata Lemos)
-Slack - main communication tool.
+Slack and Zoom - main communication tool.
 Python/Pandas - ETL ,matplotlib
 Jupyter lab - run notebooks
 Github - to host data and facilitate communication and collaboration between team members.
