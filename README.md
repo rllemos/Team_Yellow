@@ -61,7 +61,7 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 
 ## Machine Learning (Amanda Cancio)
 
-### Supervised Machine Learning
+### Preliminary Data Preprocessing
 - Create training and test groups from a given data set.
 - The data was first cleaned, explored, and scaled, and then run through a Radom Forest Classifier.
 - Implement the random forest.
@@ -69,7 +69,18 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 - Determine which supervised learning algorithm is best used for a given data set or scenario.
 - Use ensemble and resampling techniques to improve model performance.
 - SciKitLearn is the ML library we'll be using to create a classifier.
-    * SciKitLearn is the ML library we'll be using to create a classifier.  The data was first cleaned, explored, and scaled, and then run through a Radom Forest Classifier.
+    
+### Preliminary Feature Engineering
+- The importance of each feature was determined with the feature_importance_ function.
+- The features were then organized in a DataFrame in descending order of importance.
+- The DataFrame was graphed as a vertical bar chart.
+- The top five features will be focused on in order to evaluate their connection to the quality
+
+### Model Choice
+- The data was split into a train-test-split using SciKitLearn
+- The Random Forest Classifier is the preferred model with the highest accuracy score
+
+
 ## Questions the team hopes to answer with the data
 - Which elements have a greater impact on the quality of wine?
 - Does the type of wine affects the elements that have a greater importance?
@@ -81,3 +92,7 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 ### What knowledge do we hope to glean from running an unsupervised learning model on this dataset?
 We can group elements together based on how each element affects the final quality of the wine.
 Which white wine has the best quality and what elements affect the quality of the wine?
+
+## Presentation
+
+The link to the google slide presentation is: https://docs.google.com/presentation/d/1lBkx4nlX7K-AxiD_H6Ej8JHxEf8ZiycRnW8QxpIP6WQ/edit?usp=sharing
