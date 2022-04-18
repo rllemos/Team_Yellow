@@ -5,7 +5,8 @@
 ### GoogleSlides: https://docs.google.com/presentation/d/1lBkx4nlX7K-AxiD_H6Ej8JHxEf8ZiycRnW8QxpIP6WQ/edit#slide=id.g124a9435f49_0_82
 
 ### Tableaupublic: https://public.tableau.com/app/profile/ashley.gaddis2595/viz/WineQuality_16501284766880/ImportantAttributestoDetermineWineQuality3
------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
 
 # Backgroud
 >The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine.
@@ -22,7 +23,7 @@
 ## Reason the topic was selected
 The Global Market value of Wine has reached over $340 billion dollars and continue to grow. If we can determine which elements have the greatest impact on the quality of wine, we can provide a good indication on how the wine will sale and improve quality assurance. Also, wine is delicious and a staple in any household.
 
-================================================================================================
+====================================================
 ## Description of the source of data
 The data was downloaded from Kaggle: https://www.kaggle.com/datasets/danielpanizzo/wine-quality
 It came as a two CSV file White Wine with 4899 rows and 12 columns and Red Wine with 1600 rows and 12 columns.
@@ -44,13 +45,13 @@ Input variables (based on physicochemical tests):
 *Output variable (based on sensory data):*
 12. quality (score between 0 and 10)
 ## Technologies Used 
-Slack and Zoom - main communication tool.
-Python/Pandas - ETL ,matplotlib, sklearn
-Jupyter lab - run notebooks
-Github - to host data and facilitate communication and collaboration between team members.
-PostgreSQL - to create the Database on AWS.
-Create a web application with Flask to display the data from the web scrape.
-reate an HTML/CSS portfolio to showcase projects
+- Slack and Zoom - main communication tool.
+- Python/Pandas - ETL ,matplotlib, sklearn
+- Jupyter lab - run notebooks
+- Github - to host data and facilitate communication and collaboration between team members.
+- PostgreSQL - to create the Database on AWS.
+- Create a web application with Flask to display the data from the web scrape.
+- Create an HTML/CSS portfolio to showcase projects
 ## Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 ## Description of the data exploration phase of the project
@@ -76,7 +77,7 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 
     * SciKitLearn is the ML library we'll be using to create a classifier.  The data was first cleaned, explored, and scaled, and then run through a Radom Forest Classifier.
 
-========================================================================================
+================================================================
     
 ### Preliminary Feature Engineering
 - The importance of each feature was determined with the feature_importance_ function.
@@ -88,11 +89,11 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 - The data was split into a train-test-split using SciKitLearn
 - The Random Forest Classifier is the preferred model with the highest accuracy score
 
-
+================================================================
 ## Questions the team hopes to answer with the data
 
 - Which elements have a greater impact on the quality of wine?
-- Does the type of wine affects the elements that have a greater importance?
+- Does the type of wine affect the elements that have a greater impact on the quality of the wine?
 - Is the machine learn model applicable to other types of wine?
 ### Additional questions that will need to be further analyzed. 
 - Can those elements be manipulated to assure the quality of the wine?
@@ -102,6 +103,4 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 We can group elements together based on how each element affects the final quality of the wine.
 Which white wine has the best quality and what elements affect the quality of the wine?
 
-## Presentation
 
-The link to the google slide presentation is: https://docs.google.com/presentation/d/1lBkx4nlX7K-AxiD_H6Ej8JHxEf8ZiycRnW8QxpIP6WQ/edit?usp=sharing
