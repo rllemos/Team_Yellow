@@ -2,6 +2,9 @@
 ![](Images/wine.png)
 
 # White Wine and Red Wine Quality
+### GoogleSlides: https://docs.google.com/presentation/d/1lBkx4nlX7K-AxiD_H6Ej8JHxEf8ZiycRnW8QxpIP6WQ/edit#slide=id.g124a9435f49_0_82
+
+### Tableaupublic: https://public.tableau.com/app/profile/ashley.gaddis2595/viz/WineQuality_16501284766880/ImportantAttributestoDetermineWineQuality3
 -----------------------------------------------------------------------------------------------
 
 # Backgroud
@@ -19,7 +22,8 @@
 ## Reason the topic was selected
 The Global Market value of Wine has reached over $340 billion dollars and continue to grow. If we can determine which elements have the greatest impact on the quality of wine, we can provide a good indication on how the wine will sale and improve quality assurance. Also, wine is delicious and a staple in any household.
 
-# Description of the source of data
+================================================================================================
+## Description of the source of data
 The data was downloaded from Kaggle: https://www.kaggle.com/datasets/danielpanizzo/wine-quality
 It came as a two CSV file White Wine with 4899 rows and 12 columns and Red Wine with 1600 rows and 12 columns.
 
@@ -39,7 +43,7 @@ Input variables (based on physicochemical tests):
 11. alcohol (% by volume)
 *Output variable (based on sensory data):*
 12. quality (score between 0 and 10)
-# Technologies Used (Renata Lemos)
+## Technologies Used 
 Slack and Zoom - main communication tool.
 Python/Pandas - ETL ,matplotlib, sklearn
 Jupyter lab - run notebooks
@@ -49,7 +53,7 @@ Create a web application with Flask to display the data from the web scrape.
 reate an HTML/CSS portfolio to showcase projects
 ## Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
-# Description of the data exploration phase of the project
+## Description of the data exploration phase of the project
 - Make sure there is no null values
 - No duplicates
 - Make sure all data is in object intenger
@@ -70,7 +74,7 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 - Use ensemble and resampling techniques to improve model performance.
 - SciKitLearn is the ML library we'll be using to create a classifier.
     * SciKitLearn is the ML library we'll be using to create a classifier.  The data was first cleaned, explored, and scaled, and then run through a Radom Forest Classifier.
-## Questions the team hopes to answer with the data
+### Questions the team hopes to answer with the data
 - Which elements have a greater impact on the quality of wine?
 - Does the type of wine affects the elements that have a greater importance?
 - Is the machine learn model applicable to other types of wine?
