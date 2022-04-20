@@ -111,8 +111,4 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 - Can those elements be manipulated to assure the quality of the wine?
 - What affects the elements that determine the quality of the wine?
 
-### What knowledge do we hope to glean from running an unsupervised learning model on this dataset?
-We can group elements together based on how each element affects the final quality of the wine.
-Which white wine has the best quality and what elements affect the quality of the wine?
-
 
