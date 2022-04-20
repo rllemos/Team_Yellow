@@ -52,8 +52,9 @@ Input variables (based on physicochemical tests):
 - Jupyter lab - run notebooks
 - Github - to host data and facilitate communication and collaboration between team members.
 - PostgreSQL - to create the Database on AWS.
-- Create a web application with Flask to display the data from the web scrape.
-- Create an HTML/CSS portfolio to showcase projects
+- Tableau - to display and visualize the data.
+- GoogleSlides- for display and presentation tool.
+
 ## Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 ## Description of the data exploration phase of the project
@@ -64,7 +65,7 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 - Formatting the numbers
 
 ## Database Storage 
-PostgreSQL Database on AWS is the database we intend to use, and we will create a web application with Flask to display the data from the web scrape and create an HTML/CSS portfolio to showcase projects.
+PostgreSQL Database on AWS is the database we intend to use, and we will create a web application with Tableau to display the data from the kaggle website and create a story and dashboard to showcase project.
 
 ## Machine Learning 
 ### Preliminary Data Preprocessing
