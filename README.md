@@ -113,6 +113,8 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 * Out of the prediction values 459 values were correctly guessed by the model.
 * The model can predict the quality of wine best when the quality is at level 6.
     ** important to note most of the data was labeled as quality 6, this might skew the algorithm
+    
+
 ### Additional questions that will need to be further analyzed. 
 - Can those elements be manipulated to assure the quality of the wine?
 - What affects the elements that determine the quality of the wine?
