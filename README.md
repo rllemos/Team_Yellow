@@ -58,7 +58,7 @@ Input variables (based on physicochemical tests):
 ## Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 ## Description of the data exploration phase of the project
-- Make sure there is no null values
+- Make sure there are no null values
 - No duplicates
 - Make sure all data is in object intenger
 - Calculating the variance of each element
@@ -85,8 +85,10 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 - The top five features will be focused on in order to evaluate their connection to the quality
 
 ### Model Choice
-- The data was split into a train-test-split using SciKitLearn
-- The Random Forest Classifier is the preferred model with the highest accuracy score
+- The data was split into a train-test-split using SciKitLearn.
+- The Random Forest Classifier is the preferred model at this stage with the highest accuracy score (68%), although various other models (Easy Ensemble, Random Oversampling, K-Means clustering, etc) were used.
+- The original target was then binned using a conditional into two categories, high and low quality
+- The Random Forest Classifier's accuracy score improved to 96.4%.
 ----------------------------------------------------------------------------------------------
 ## Questions the team hopes to answer with the data
 
@@ -96,8 +98,12 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 
 ## Results:
 ![Quality Dsitribution](Images/quality_distribution.png)
-* Most wines were classified at quality 6
+* Most wines were classified at quality 6.
 * There is a substantial amount of room for improvement.
+
+![Q Category Distribution](Images/q_category_distribution.png)
+* When split into two bins, most wines were in the high quality category.
+* High quality is rated 5 or above, while low quality is rated 4 and below.
 
 ![Features Sorted by Importance](Images/bargraph_favoriteFeatures.png)
 * Alcohol level is the most important feature when determining the quality of  wine.
