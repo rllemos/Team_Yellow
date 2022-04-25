@@ -133,7 +133,7 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 
 ![](Images/3D_graph_K.png)
 
-
+![](Images/3D_graph_K2.png)
 ### Additional questions that will need to be further analyzed. 
 - Can those elements be manipulated to assure the quality of the wine?
 - What affects the elements that determine the quality of the wine?
