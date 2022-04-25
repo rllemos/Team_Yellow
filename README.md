@@ -130,7 +130,8 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 #### 2D 
 ![](Images/2D_graph_K.png)
 #### 3D
-![](Images/3D_graph_K.png)
+
+![](Images/3D_graph_ K.png)
 
 
 ### Additional questions that will need to be further analyzed. 
