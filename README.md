@@ -98,12 +98,6 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 
 ## Results:
 
-!["Quality Dsitribution"](Images/quality_distribution.png)
-* Most wines were classified at quality 6
-* There is a substantial amount of room for improvement.
-
-!["Features Sorted by Importance"](Images/bargraph_favoriteFeatures.png)
-
 ![Quality Dsitribution](Images/quality_distribution.png)
 * Most wines were classified at quality 6.
 * There is a substantial amount of room for improvement.
@@ -121,10 +115,21 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 * Out of the prediction values 459 values were correctly guessed by the model.
 * The model can predict the quality of wine best when the quality is at level 6.
     ** important to note most of the data was labeled as quality 6, this might skew the algorithm
-    
+### Random Forest Classifier with Binned Target
+ 
 ![CM for binned RFC](Images/CM_for_Binned_RFC.png)
 * The confusion matrix after the target output was binned
 * This model has high precision and perfect recall for the High Quality category
+### Classification Report:
+
+![](Images/Binned_RFC_classification.png)
+### Clustering using K-Means
+
+![](Images/elbow_curve.png)
+
+![](Images/2D_graph_K.png)
+
+![](Images/3D_graph_ K.png)
 
 
 ### Additional questions that will need to be further analyzed. 
