@@ -97,13 +97,13 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 - Is the machine learn model applicable to other types of wine?
 
 ## Results:
-<<<<<<< HEAD
+
 !["Quality Dsitribution"](Images/quality_distribution.png)
 * Most wines were classified at quality 6
 * There is a substantial amount of room for improvement.
 
 !["Features Sorted by Importance"](Images/bargraph_favoriteFeatures.png)
-=======
+
 ![Quality Dsitribution](Images/quality_distribution.png)
 * Most wines were classified at quality 6.
 * There is a substantial amount of room for improvement.
@@ -113,7 +113,7 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 * High quality is rated 5 or above, while low quality is rated 4 and below.
 
 ![Features Sorted by Importance](Images/bargraph_favoriteFeatures.png)
->>>>>>> 17d2a93f2138a1f2de55968157d601789e99400d
+
 * Alcohol level is the most important feature when determining the quality of  wine.
 * Fixed acidity is the least important feature when determining the quality of wine.
 
