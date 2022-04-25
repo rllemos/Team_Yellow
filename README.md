@@ -114,6 +114,10 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 * The model can predict the quality of wine best when the quality is at level 6.
     ** important to note most of the data was labeled as quality 6, this might skew the algorithm
     
+![CM for binned RFC](Images/CM_for_Binned_RFC.png)
+* The confusion matrix after the target output was binned
+* This model has high precision and perfect recall for the High Quality category
+
 
 ### Additional questions that will need to be further analyzed. 
 - Can those elements be manipulated to assure the quality of the wine?
