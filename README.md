@@ -58,7 +58,7 @@ Input variables (based on physicochemical tests):
 ## Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 ## Description of the data exploration phase of the project
-- Make sure there is no null values
+- Make sure there are no null values
 - No duplicates
 - Make sure all data is in object intenger
 - Calculating the variance of each element
@@ -85,8 +85,10 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 - The top five features will be focused on in order to evaluate their connection to the quality
 
 ### Model Choice
-- The data was split into a train-test-split using SciKitLearn
-- The Random Forest Classifier is the preferred model with the highest accuracy score
+- The data was split into a train-test-split using SciKitLearn.
+- The Random Forest Classifier is the preferred model at this stage with the highest accuracy score (68%), although various other models (Easy Ensemble, Random Oversampling, K-Means clustering, etc) were used.
+- The original target was then binned using a conditional into two categories, high and low quality
+- The Random Forest Classifier's accuracy score improved to 96.4%.
 ----------------------------------------------------------------------------------------------
 ## Questions the team hopes to answer with the data
 
@@ -95,11 +97,23 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 - Is the machine learn model applicable to other types of wine?
 
 ## Results:
+<<<<<<< HEAD
 !["Quality Dsitribution"](Images/quality_distribution.png)
 * Most wines were classified at quality 6
 * There is a substantial amount of room for improvement.
 
 !["Features Sorted by Importance"](Images/bargraph_favoriteFeatures.png)
+=======
+![Quality Dsitribution](Images/quality_distribution.png)
+* Most wines were classified at quality 6.
+* There is a substantial amount of room for improvement.
+
+![Q Category Distribution](Images/q_category_distribution.png)
+* When split into two bins, most wines were in the high quality category.
+* High quality is rated 5 or above, while low quality is rated 4 and below.
+
+![Features Sorted by Importance](Images/bargraph_favoriteFeatures.png)
+>>>>>>> 17d2a93f2138a1f2de55968157d601789e99400d
 * Alcohol level is the most important feature when determining the quality of  wine.
 * Fixed acidity is the least important feature when determining the quality of wine.
 
@@ -107,6 +121,12 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 * Out of the prediction values 459 values were correctly guessed by the model.
 * The model can predict the quality of wine best when the quality is at level 6.
     ** important to note most of the data was labeled as quality 6, this might skew the algorithm
+    
+![CM for binned RFC](Images/CM_for_Binned_RFC.png)
+* The confusion matrix after the target output was binned
+* This model has high precision and perfect recall for the High Quality category
+
+
 ### Additional questions that will need to be further analyzed. 
 - Can those elements be manipulated to assure the quality of the wine?
 - What affects the elements that determine the quality of the wine?
