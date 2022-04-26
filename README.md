@@ -2,9 +2,9 @@
 ![](Images/wine.png)
 
 # White and Red Wine Quality
-### GoogleSlides: https://docs.google.com/presentation/d/1lBkx4nlX7K-AxiD_H6Ej8JHxEf8ZiycRnW8QxpIP6WQ/present?slide=id.g124a9435f49_0_10
+### ![GoogleSlides](https://docs.google.com/presentation/d/1lBkx4nlX7K-AxiD_H6Ej8JHxEf8ZiycRnW8QxpIP6WQ/present?slide=id.g124a9435f49_0_10)
 
-### Tableaupublic: https://public.tableau.com/app/profile/ashley.gaddis2595/viz/WineQuality_16501284766880/ImportantAttributestoDetermineWineQuality3
+### ![Tableaupublic](https://public.tableau.com/app/profile/ashley.gaddis2595/viz/WineQuality_16501284766880/ImportantAttributestoDetermineWineQuality3)
 
 -----------------------------------------------------------------------------------
 
