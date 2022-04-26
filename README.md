@@ -27,8 +27,8 @@
 
 -------------------------------------------------------------------------------------------------------
 ## Description of the source of data
-The data was downloaded from Kaggle: https://www.kaggle.com/datasets/danielpanizzo/wine-quality
-It came as a two CSV file White Wine with 4899 rows and 12 columns and Red Wine with 1600 rows and 12 columns.
+The data was downloaded from ![Kaggle](https://www.kaggle.com/datasets/danielpanizzo/wine-quality).
+It came as a two CSV files: White Wine with 4899 rows and 12 columns and Red Wine with 1600 rows and 12 columns.
 
 *Columns*
 Input variables (based on physicochemical tests):
