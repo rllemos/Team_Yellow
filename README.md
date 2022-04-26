@@ -22,7 +22,8 @@
 >it could be interesting to test feature selection methods.
 
 ## Reason the topic was selected
-The Global Market value of Wine has reached over $340 billion dollars and continue to grow. If we can determine which elements have the greatest impact on the quality of wine, we can provide a good indication on how the wine will sale and improve quality assurance. Also, wine is delicious and a staple in any household.
+“The global Wine Market is estimated to be valued at US$ 513.8 Bn in 2022 and is projected to reach US$ 846.3 Bn by 2032. The overall sales of wine are expected to surge at a CAGR(compound annual growth rate) of 5.1% between 2022 and 2032. The wine market is estimated to account for around ~2% - 4% in alcohol & beverages market.” If we can determine which elements have the greatest impact on the quality of wine, we can provide a good indication on how the wine will sale and improve quality assurance. Also, wine is delicious and a staple in any household.
+
 
 -------------------------------------------------------------------------------------------------------
 ## Description of the source of data
