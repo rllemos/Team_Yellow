@@ -103,10 +103,6 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 * Most wines were classified at quality 6.
 * There is a substantial amount of room for improvement.
 
-![Q Category Distribution](Images/q_category_distribution.png)
-* When split into two bins, most wines were in the high quality category.
-* High quality is rated 5 or above, while low quality is rated 4 and below.
-
 ![Features Sorted by Importance](Images/bargraph_favoriteFeatures.png)
 
 * Alcohol level is the most important feature when determining the quality of  wine.
@@ -116,11 +112,17 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 * Out of the prediction values 459 values were correctly guessed by the model.
 * The model can predict the quality of wine best when the quality is at level 6.
     ** important to note most of the data was labeled as quality 6, this might skew the algorithm
+
 ### Random Forest Classifier with Binned Target
+
+![Q Category Distribution](Images/q_category_distribution.png)
+* When split into two bins, most wines were in the high quality category.
+* High quality is rated 5 or above, while low quality is rated 4 and below.
 
 ![CM for binned RFC](Images/CM_for_Binned_RFC.png)
 * The confusion matrix after the target output was binned
 * This model has high precision and perfect recall for the High Quality category
+
 ### Classification Report:
 
 ![](Images/Binned_RFC_classification.png)
@@ -135,6 +137,26 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 ![](Images/3D_graph_K.png)
 
 ![](Images/3D_graph_K2.png)
+
+### Application to Red Wine
+The Machine Learning Model was then applied to a Red Wine dataset, and the results were as follows:
+
+![Red Quality Distribution](Images/red_quality_distribution)
+* More wines in this dataset were classified as 5's
+* This data in this dataset is concentrated mainly between the 5's and 6's
+
+![red_features_by_importance](https://user-images.githubusercontent.com/94088129/165418794-063ed42d-10c6-40f2-9d2b-7c3f65e875d0.png)
+* Alcohol was still the most important feature in red wines
+* Fixed acidity, which was #11 in white wine, is #7 in red wine
+
+![red_RFC](https://user-images.githubusercontent.com/94088129/165419111-6a32d0b9-8dd2-4964-84ee-6dff82dc3383.png)
+* The accuracy score for this dataset was 71.5%
+* The most accurate prediction was 5, with 6 in second place
+
+![red_binned_CM](https://user-images.githubusercontent.com/94088129/165419347-69a0798d-1519-4cca-afef-4c1f13152880.png)
+* Once the target column was binned (0 for low quality, 1 for high quality), the accuracy increased
+* The new accuracy score is 96.5%
+
 ### Additional questions that will need to be further analyzed. 
 - Can those elements be manipulated to assure the quality of the wine?
 - What affects the elements that determine the quality of the wine?
