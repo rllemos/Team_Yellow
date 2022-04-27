@@ -141,7 +141,7 @@ PostgreSQL Database on AWS is the database we intend to use, and we will create 
 ### Application to Red Wine
 The Machine Learning Model was then applied to a Red Wine dataset, and the results were as follows:
 
-![Red Quality Distribution](Images/red_quality_distribution)
+![red_quality_distribution](https://user-images.githubusercontent.com/94088129/165419636-c9399626-6989-43f8-8e86-c30e88e582d3.png)
 * More wines in this dataset were classified as 5's
 * This data in this dataset is concentrated mainly between the 5's and 6's
 
